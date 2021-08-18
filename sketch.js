@@ -56,7 +56,7 @@ function setup() {
 function draw() {
   background(180);
   //displaying score
-  text("Score: "+ score, 500,50);
+  text("Puntuación: "+ score, 500,50);
   
   
   
