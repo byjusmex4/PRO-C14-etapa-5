@@ -48,7 +48,7 @@ function setup() {
   obstaclesGroup = createGroup();
   cloudsGroup = createGroup();
   
-  console.log("Hello" + 5);
+  console.log("Hola" + 5);
   
   score = 0;
 }
