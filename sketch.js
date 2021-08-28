@@ -61,7 +61,7 @@ function draw() {
   
   
   if(gameState === PLAY){
-    //mover el suelo
+    //mover suelo
     ground.velocityX = -4;
     //puntuación
     score = score + Math.round(frameCount/60);
@@ -127,7 +127,7 @@ function spawnObstacles(){
       default: break;
     }
    
-    //asignar escala y ciclo de vida al obstáculo          
+    //asignar tamaño y tiempo de vida al obstáculo          
     obstacle.scale = 0.5;
     obstacle.lifetime = 300;
    
@@ -145,7 +145,7 @@ function spawnClouds() {
     cloud.scale = 0.5;
     cloud.velocityX = -3;
     
-     //asignar ciclo de vida a la variable
+     //asignar tiempo de vida a la variable
     cloud.lifetime = 134;
     
     //ajustar la profundidad
